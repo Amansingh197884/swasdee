@@ -130,6 +130,9 @@ height: 50vh;
 .name{
     background: url(image.webp);
     height: 70vh;
+    filter: brightness(0.5);
+    /* z-index: -1; */
+    position: relative;
     
 }
 .nn{
@@ -351,3 +354,26 @@ background-color: aquamarine;
     margin-top: 30px;
     margin-left: 20px;
 }
+.name::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+@media screen and (max-width:400px){
+    .img img{
+        width: 100%;
+        height: 50vh;
+    }
+}
+/* @media screen and (max-width:400px){
+    .
+} */
