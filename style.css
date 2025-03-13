@@ -272,6 +272,8 @@ margin-top: -35px;
 .img22{
     width: 100%;
     margin: 20px;
+    border: 2px dotted rgb(168, 255, 206);
+box-shadow: 0px 10px 10px 10px  rgb(168, 255, 206);
 
 }
 .first{
@@ -314,4 +316,38 @@ background-color: aquamarine;
 .type:hover{
     color: #000;
     background-color: #5372F0;
+}
+.honest{
+    height: 70vh;
+    margin-top: 100px;
+    background-color: #121111;
+}
+.card-text{
+    padding: 20px;
+    color: #fff;
+}
+.color{
+    padding-top: 20px;
+    color: #fff;
+}
+.on{
+    margin-top: 30px;
+}
+.cut{
+    border-bottom: 2px #fff;
+}
+.text-green{
+    color: green;
+}
+.side{
+    margin-left: 400px;
+    color: green;
+}
+.row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.section-header{
+    margin-top: 30px;
+    margin-left: 20px;
 }
